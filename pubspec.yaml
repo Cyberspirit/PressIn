@@ -1,0 +1,65 @@
+name: pressin
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  flutter_icons: ^1.1.0
+  nice_button: ^0.1.7
+  flutter_svg: ^0.19.0
+  flashy_tab_bar: ^0.0.3
+  md2_tab_indicator: ^1.0.2
+  badges: ^1.1.3
+  getwidget: ^1.1.0
+  just_audio: ^0.6.15+1
+
+  flutter_reaction_button: ^1.0.6
+  share: ^0.6.5+4
+  flutter_animation_progress_bar: ^1.0.6
+  footer: ^0.0.3
+  expandable_text: ^1.2.0
+  selectable_circle_list: ^0.1.5+1
+  flutter_widget_from_html: ^0.5.1+5
+  settings_ui: ^0.5.0
+  random_color: ^1.0.5
+
+  path_provider:
+  http:
+  audioplayer: 0.8.1
+  audioplayer_web: 0.7.1
+  video_player: ^1.0.1
+  grouped_list: ^3.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: ProductSans
+      fonts:
+        - asset: asset/font/Product-Sans-Regular.ttf
+          weight: 900
+        - asset: asset/font/Product-Sans-Bold.ttf
+    - family: Julius
+      fonts:
+        - asset: asset/font/JuliusSansOne-Regular.ttf
+    - family: Ubuntu
+      fonts:
+        - asset: asset/font/Ubuntu-Regular.ttf
+    - family: Avenir
+      fonts:
+        - asset: asset/font/avenirMedium.ttf
+
+  assets:
+    - asset/images/
