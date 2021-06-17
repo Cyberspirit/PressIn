@@ -1,4 +1,6 @@
-# pressin
+# Pressin
+# Pressin creates biblically centered, relevant experiences that encourage people to seek God every day.
+An online and mobile Bible platform published for Android, iOS, Windows Phone, and many other operating systems; it also supports a variety of other platforms
 
 A new Flutter project.
 
